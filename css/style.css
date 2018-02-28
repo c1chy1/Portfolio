@@ -898,15 +898,15 @@ footer p {
 @media screen and (max-width: 768px){
 
     .sidenav a {
-        padding: 0px 2px 0px 0px;
-        margin:5px 0px 3px 0px;
+        padding: 5px 2px 0px 0px;
+        margin:12px 0px 3px 0px;
         text-decoration: none;
         font-size: 25px;
         color: #FFFFFF;
         display: block;
         box-shadow: 0px 0px 9px 4px black;
         transition: 0.3s;
-        top:-14px;
+        top:-18px;
 
     }
     .sidenav
@@ -916,18 +916,42 @@ footer p {
         width: 0;
         position: fixed;
         z-index: 5;
-        top: 44px;
+        top: 36px;
         background: rgba(30, 30, 30, 0.5);
         left:0;
-        padding: 15px 0px 0px 0px;
+        padding: 31px 0px 0px 0px;
         float:left;
         overflow: hidden;
         text-align:right ;
         transition: 0.5s;
-        margin:11px 0px;
+        margin:19px 0px;
 
     }
 }
+#services div p {
+
+    font-family: inherit;
+
+}
+#specialties h2 {
+
+    font-family: monospace;
+    padding:0 0 0 0;
+}
+
+#contact label {
+
+    font-family: 'Lato', sans-serif;
+
+}
+#messsage label {
+
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+
 
 @media screen and (max-width:1500px){
 
@@ -937,7 +961,7 @@ footer p {
         border-radius: 5px;
         border: 1px solid #ccc;
         background: #FFFFFF;
-        font-family:"Bell MT";
+        font-family:inherit;
         font-size: 1.5vh;
         box-shadow: 1px 1px 2px 1px;
         margin:auto;
@@ -1022,7 +1046,7 @@ div#contact {
     padding-left: 35%;
     font-size: 1.67em;
     padding-top: 5%;
-    font-family: "High Tower Text";
+    font-family: inherit;
 
 }
 
@@ -1133,7 +1157,7 @@ form {
     #mobile-hero {
         font-size: 2em;
         font-weight: lighter;
-        font-family: "Baskerville Old Face";
+        font-family: 'open-sans', sans-serif;
         color: #edeeef;
         opacity: .9;
     }
@@ -1142,13 +1166,13 @@ form {
         width: 50%;
         font-weight: 200;
         font-size: 1.67em;
-        font-family:"Bell MT";
+        font-family:inherit;
         opacity: .9;
     }
 
     #quote p {
         padding-bottom: 80px;
-        font-family:"Bell MT";
+        font-family:inherit;
         font-weight: 200;
         opacity: .9;
     }
@@ -1200,13 +1224,13 @@ form {
         justify-content: center;
         padding-bottom: 0px;
         flex-direction: column;
-        font-family: "High Tower Text";
+        font-family: inherit;
         z-index:10;
     }
 
     #service-title h2 {
         text-align: center;
-        font-family: "High Tower Text";
+        font-family: inherit;
         font-size: 2em;
         color:white;
 
@@ -1231,7 +1255,7 @@ form {
         padding: 0 0px 80px 100px;
         z-index: 3;
         position: relative;
-        font-family: "High Tower Text";
+        font-family:inherit ;
     }
 
     #web-writing, #ui-photo {
@@ -1266,7 +1290,7 @@ form {
         margin-top: 20px;
         font-size: 1.5em;
         font-weight: 400;
-        font-family: "High Tower Text";
+        font-family: inherit;
         color: #FFFFFF;
     }
 
@@ -1288,7 +1312,7 @@ form {
         padding-left: 30%;
         padding-top: 2%;
         font-size: 2.3em;
-        font-family: "High Tower Text";
+        font-family: inherit;
     }
 
     #contact label {
