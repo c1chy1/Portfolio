@@ -916,7 +916,7 @@ footer p {
         width: 0;
         position: fixed;
         z-index: 5;
-        top: 0px;
+        top: 44px;
         background: rgba(30, 30, 30, 0.5);
         left:0;
         padding: 15px 0px 0px 0px;
@@ -1346,7 +1346,7 @@ form {
 
     #message input {
 
-        width: 100%;
+      width: 100%;
 
 
     }
@@ -1442,11 +1442,11 @@ form {
 
 .title {
 
-    position: absolute;
+position: absolute;
     left: 85%;
     top: 200px;
     max-height: 100%;
-    height: 10%;
+ height: 10%;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
@@ -1466,9 +1466,9 @@ form {
 }
 
 .button {
-    display:flex;
-    top:90% ;
-    left:50% ;
+ display:flex;
+top:90% ;
+  left:50% ;
     font-size: 30px;
     text-align: center;
     opacity: 0;
