@@ -900,15 +900,15 @@ footer p {
 @media screen and (max-width: 768px){
 
     .sidenav a {
-        padding: 0px 2px 0px 0px;
-        margin:5px 0px 3px 0px;
+        padding: 5px 2px 0 0;
+        margin:12px 0 3px 0;
         text-decoration: none;
         font-size: 25px;
         color: #FFFFFF;
         display: block;
-        box-shadow: 0px 0px 9px 4px black;
+        box-shadow: 0 0 9px 4px black;
         transition: 0.3s;
-        top:-14px;
+        top:-18px;
 
     }
     .sidenav
@@ -918,15 +918,15 @@ footer p {
         width: 0;
         position: fixed;
         z-index: 5;
-        top: 0px;
+        top: 36px;
         background: rgba(30, 30, 30, 0.5);
         left:0;
-        padding: 15px 0px 0px 0px;
+        padding: 31px 0px 0px 0px;
         float:left;
         overflow: hidden;
         text-align:right ;
         transition: 0.5s;
-        margin:11px 0px;
+        margin:19px 0px;
 
     }
 }
@@ -1028,7 +1028,7 @@ div#contact {
 }
 
 #contact h1 {
-    padding-left: 35%;
+    padding-left: 10%;
     font-size: 1.67em;
     padding-top: 5%;
     font-family: "High Tower Text",sans-serif;
