@@ -354,8 +354,8 @@ header{
     position: fixed;
     top: -10%;
     left: -10%;
-    -webkit-transform: translate3d(0, 0, 0) rotate(0.01deg);
-    transform: translate3d(0, 0, 0) rotate(0.01deg);
+    -webkit-transform: translate3d(0, 0, 0) rotate(0.3deg);
+    transform: translate3d(0, 0, 0) rotate(0.4deg);
     width: 110%;
     height: 105%;
     background: url("../graphic/smoke2.png") center center no-repeat;
@@ -367,38 +367,38 @@ header{
 }
 @-webkit-keyframes smoke {
     25% {
-        -webkit-transform: translate3d(100px, 0, 0) rotate(0.01deg);
-        transform: translate3d(100px, 0, 0) rotate(0.01deg);
+        -webkit-transform: translate3d(100px, 0, 0) rotate(0.2deg);
+        transform: translate3d(100px, 0, 0) rotate(0.2deg);
     }
     50% {
-        -webkit-transform: translate3d(75px, -25px, 0) rotate(0.01deg);
-        transform: translate3d(75px, -25px, 0) rotate(0.01deg);
+        -webkit-transform: translate3d(75px, -25px, 0) rotate(0.2deg);
+        transform: translate3d(75px, -25px, 0) rotate(0.2deg);
     }
     75% {
-        -webkit-transform: translate3d(45px, 30px, 0) rotate(0.01deg);
-        transform: translate3d(45px, 30px, 0) rotate(0.01deg);
+        -webkit-transform: translate3d(45px, 30px, 0) rotate(0.2deg);
+        transform: translate3d(45px, 30px, 0) rotate(0.2deg);
     }
     100% {
-        -webkit-transform: translate3d(25px, -15px, 0) rotate(0.01deg);
-        transform: translate3d(25px, -15px, 0) rotate(0.01deg);
+        -webkit-transform: translate3d(25px, -15px, 0) rotate(0.2deg);
+        transform: translate3d(25px, -15px, 0) rotate(0.2deg);
     }
 }
 @keyframes smoke {
     25% {
-        -webkit-transform: translate3d(100px, 0, 0) rotate(0.01deg);
-        transform: translate3d(100px, 0, 0) rotate(0.01deg);
+        -webkit-transform: translate3d(100px, 0, 0) rotate(0.2deg);
+        transform: translate3d(100px, 0, 0) rotate(0.2deg);
     }
     50% {
-        -webkit-transform: translate3d(75px, -25px, 0) rotate(0.01deg);
-        transform: translate3d(75px, -25px, 0) rotate(0.01deg);
+        -webkit-transform: translate3d(75px, -25px, 0) rotate(0.2deg);
+        transform: translate3d(75px, -25px, 0) rotate(0.2deg);
     }
     75% {
-        -webkit-transform: translate3d(45px, 30px, 0) rotate(0.01deg);
-        transform: translate3d(45px, 30px, 0) rotate(0.01deg);
+        -webkit-transform: translate3d(45px, 30px, 0) rotate(0.2deg);
+        transform: translate3d(45px, 30px, 0) rotate(0.2deg);
     }
     100% {
-        -webkit-transform: translate3d(25px, -15px, 0) rotate(0.01deg);
-        transform: translate3d(25px, -15px, 0) rotate(0.01deg);
+        -webkit-transform: translate3d(25px, -15px, 0) rotate(0.2deg);
+        transform: translate3d(25px, -15px, 0) rotate(0.2deg);
     }
 }
 #header {
@@ -479,7 +479,7 @@ header{
     position: relative;
     top:0px;
     z-index: 5;
-    box-shadow: 0px 0px 15px 4px black;
+    box-shadow: 0px 0px 15px 15px #1e1e1e;
 
 }
 
@@ -525,7 +525,7 @@ header{
     padding: 0;
     position: relative;
     z-index: 1;
-    box-shadow: 0px 0px 20px 15px black;
+    box-shadow: 0px 0px 20px 15px #1e1e1e;
 }
 
 #about-me h2 {
@@ -570,8 +570,9 @@ header{
     flex-direction: column;
     position: relative;
     z-index: 5;
+    outline-style: auto;
     width: 100%;
-    box-shadow: 0px 0px 9px 4px black;
+    box-shadow: 0px 0px 9px 4px #1e1e1e;
 }
 
 #specialties h2 {
@@ -602,7 +603,7 @@ header{
     flex-direction: column;
     z-index: 5;
     position: relative;
-    box-shadow: 0px -5px 2px 0px black;
+    box-shadow: 0px -14px 15px 5px #1e1e1e;
     font-family: "Baskerville Old Face",sans-serif;
 }
 
@@ -681,7 +682,7 @@ header{
     height: auto;
     overflow: hidden;
     z-index: 10;
-    box-shadow: 0px 0px 9px 4px black;
+    box-shadow: 0px 0px 15px 15px #1e1e1e;
 }
 
 
@@ -866,7 +867,7 @@ textarea:focus{
     background: #1e1e1e;
     position: relative;
     z-index: 1;
-    box-shadow: 0px 0px 30px 15px black;
+    box-shadow: 0px -12px 20px 10px #1e1e1e;
 }
 
 #footer-media img {
@@ -943,7 +944,7 @@ footer p {
     .hamburger .line{
         width: 50px;
         height: 5px;
-        background-color: white;
+        background-color:  	#ccae1d;
         display: block;
         margin: 8px auto;
         border-radius: 30px;
@@ -976,7 +977,7 @@ footer p {
 
 
 
-    .menu{z-index:1000000; font-weight:bold; top:55px; right:0px; width:15%; background:black;  position:fixed; text-align:center; font-size:18px; font-family:"Baskerville Old Face",sans-serif; padding:0px 0px 0px 50px;}
+    .menu{z-index:1000000; font-weight:bold; top:55px; right:0px; opacity:0.7;width:15%; background:black;  position:fixed; text-align:center; font-size:18px; font-family:"Baskerville Old Face",sans-serif; padding:0px 0px 0px 50px;}
     .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
     .menu li {display: block; margin: 0px 0px 0px -50px;  padding:15px 0 15px 0; border-bottom:#dddddd 1px outset; border-left:#dddddd 1px inset;  border-top:#dddddd 1px inset; color:white; }
     .menu li:hover{display: block;    background:#1e1e1e; padding:15px 0 15px 0; border:#dddddd 1px solid;}
@@ -1160,10 +1161,33 @@ footer p {
         height: auto;
         overflow: hidden;
         z-index: 10;
-        box-shadow: 0px 0px 9px 4px black;
+        box-shadow: 0px 0px 15px 15px #1e1e1e;
     }
 
-
+    #specialties {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        background: #1e1e1e;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: relative;
+        z-index: 5;
+        width: 100%;
+        box-shadow: 0px 0px 9px 4px #1e1e1e;
+    }
 
     .sidenav a {
         padding: 0px 2px 0px 0px;
@@ -1201,7 +1225,7 @@ footer p {
         padding: 40px 0px;
         z-index: 3;
         position: relative;
-        box-shadow: 0px 0px 30px 15px black;
+        box-shadow: 0px 0px 30px 15px #1e1e1e;
     }
 
 
@@ -1212,7 +1236,8 @@ footer p {
         height: 40vh;
         display: flex;
         margin:auto;
-
+outline-style: double;
+        outline-color: lightgray;
         -webkit-transition: all .3s ;
         -moz-transition: all .3s ;
         -ms-transition: all .3s ;
@@ -1234,6 +1259,8 @@ footer p {
         width:60%;
         height: 50%;
         display: flex;
+        outline-style: double;
+        outline-color: darkgray;
         margin:auto;
         -webkit-transition: all .3s ;
         -moz-transition: all .3s ;
@@ -1317,7 +1344,7 @@ footer p {
     z-index: 3;
     position: relative;
     font-family: "High Tower Text",sans-serif;
-    box-shadow: 0px 10px 24px 4px black;
+    box-shadow: 0px 10px 24px 4px #1e1e1e;
 
 }
 
@@ -1434,6 +1461,7 @@ footer p {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
+        outline-style: auto;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
@@ -1452,7 +1480,7 @@ footer p {
         width: 100%;
         z-index: 3;
         position: relative;
-        box-shadow: 0px 0px 30px 15px black;
+        box-shadow: 0px 0px 30px 15px #1e1e1e;
     }
 
 
@@ -1524,6 +1552,8 @@ footer p {
         height: 90%;
         display: flex;
         margin:auto;
+        outline-style: double;
+        outline-color: lightgray;
         -webkit-transition: all .3s ;
         -moz-transition: all .3s ;
         -ms-transition: all .3s ;
@@ -1544,6 +1574,8 @@ footer p {
         height: 90%;
         display: flex;
         margin:auto;
+        outline-style: double;
+        outline-color: lightgray;
         -webkit-transition: all .3s ;
         -moz-transition: all .3s ;
         -ms-transition: all .3s ;
@@ -1628,7 +1660,7 @@ footer p {
     }
 
     #header {
-        height: 90vh;
+        height: 80vh;
     }
 
     #header svg {
@@ -1706,6 +1738,7 @@ footer p {
         flex-direction: column;
         font-family: "Baskerville Old Face",sans-serif;
         z-index:10;
+        box-shadow: 0px -14px 15px 5px #1e1e1e;
     }
 
     #service-title h2 {
@@ -1875,7 +1908,7 @@ footer p {
         z-index: 3;
         position: relative;
         font-family: "High Tower Text",sans-serif;
-        box-shadow: 0px 10px 24px 4px black;
+        box-shadow: 0px 10px 24px 4px #1e1e1e;
     }
 
 }
@@ -1991,6 +2024,7 @@ footer p {
     background: #1e1e1e;
     z-index: 1;
     position: relative;
-    box-shadow: 0px 0px 30px 15px black;
+
+    box-shadow: 0px -12px 20px 10px #1e1e1e;
 }
 
